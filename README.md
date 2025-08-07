@@ -1,27 +1,31 @@
-# Welcome to your Lovable project
+# LLM Document Processing System
 
-## Project info
+## Project Description
 
-**URL**: https://lovable.dev/projects/3d482f1a-dcf1-4d60-8a33-1facea26b7f5
+This project is a web application that uses an LLM (Large Language Model) to process and analyze documents. It is designed to intelligently handle tasks like insurance claims and policy processing by extracting key information, applying business rules, and providing structured outputs. The system allows users to upload documents and then submit natural language queries, which the AI processes to find relevant information and generate a justified decision.
 
-## How can I edit this code?
+The application is built with the following technologies:
+* **Vite**: A fast build tool for modern web projects.
+* **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+* **React**: A JavaScript library for building user interfaces.
+* **shadcn-ui**: A collection of reusable components for building beautiful UIs.
+* **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
 
-There are several ways of editing your application.
+## Live Demo
 
-**Use Lovable**
+You can view a live demo of the application here:
+[LLM Document Processing System](https://llm-document-processing-system-five.vercel.app/)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3d482f1a-dcf1-4d60-8a33-1facea26b7f5) and start prompting.
+## How to Edit This Code?
 
-Changes made via Lovable will be committed automatically to this repo.
+There are several ways to edit your application.
 
 **Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes. 
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 Follow these steps:
-
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
@@ -34,40 +38,3 @@ npm i
 
 # Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/3d482f1a-dcf1-4d60-8a33-1facea26b7f5) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
